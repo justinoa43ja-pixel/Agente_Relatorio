@@ -1,0 +1,26 @@
+AGENTE BAI | SISTEMA DE REGISTO DE ACTIVIDADES
+
+COMO ABRIR
+1. Extraia a pasta Agente_BAI_App, se estiver num ficheiro ZIP.
+2. Abra o ficheiro index.html no Chrome, Edge ou Firefox.
+3. Para os gráficos, ícones e tipo de letra serem carregados correctamente, mantenha uma ligação à Internet, pois o código utiliza bibliotecas externas via CDN.
+
+FUNCIONALIDADES
+- Registo de movimentos por técnico, data, tipo e quantidade.
+- Cálculo automático do valor esperado (200 Kz por movimento, conforme o código fornecido).
+- Registo de valores em mão e gravação do relatório.
+- Painel do gestor com filtros, indicadores, gráficos, tabela paginada e exportação CSV.
+
+ACESSO AO PAINEL DO GESTOR
+Palavra-passe inicial: gestor2025
+
+ARMAZENAMENTO E LIMITAÇÕES
+Esta versão funciona no próprio navegador. Os registos ficam guardados no armazenamento local (localStorage) do navegador e computador utilizados. Não são enviados para um servidor nem sincronizados entre utilizadores ou dispositivos. Limpar os dados do navegador pode apagar os registos.
+
+A palavra-passe é uma protecção básica no navegador, não um mecanismo de segurança adequado para dados financeiros confidenciais. O código-fonte pode ser consultado, por isso esta versão não deve ser publicada como sistema operacional com dados sensíveis sem implementar autenticação real e uma base de dados no servidor.
+
+Para evitar misturar demonstrações com relatórios reais, o aplicativo começa sem registos fictícios. O código de demonstração original foi mantido, mas não é executado automaticamente.
+
+AJUSTES FEITOS
+- Corrigida uma expressão JavaScript inválida na configuração de cor do gráfico de barras, que impedia o carregamento de todo o código.
+- Desactivada a criação automática de registos aleatórios no primeiro acesso.
